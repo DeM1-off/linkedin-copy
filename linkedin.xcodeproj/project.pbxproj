@@ -11,6 +11,16 @@
 		4A0D59492A189F6200DE89D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D59482A189F6200DE89D2 /* ContentView.swift */; };
 		4A0D594B2A189F6400DE89D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0D594A2A189F6400DE89D2 /* Assets.xcassets */; };
 		4A0D594E2A189F6400DE89D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0D594D2A189F6400DE89D2 /* Preview Assets.xcassets */; };
+		4AD913732A1B91AE0096974B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD913722A1B91AE0096974B /* SearchBar.swift */; };
+		4AD913762A1BAA670096974B /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD913752A1BAA670096974B /* PostModel.swift */; };
+		4AD913782A1BAA7A0096974B /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD913772A1BAA7A0096974B /* NetworkModel.swift */; };
+		4AD9137A2A1BAC310096974B /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD913792A1BAC310096974B /* InvitationView.swift */; };
+		4AD9137C2A1BEA500096974B /* MyNetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9137B2A1BEA500096974B /* MyNetworkScreen.swift */; };
+		4AD9137E2A1BEEBB0096974B /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9137D2A1BEEBB0096974B /* PostCardView.swift */; };
+		4AD913802A1BF3F90096974B /* ProfileAndPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD9137F2A1BF3F90096974B /* ProfileAndPostView.swift */; };
+		4AD913822A1BF5140096974B /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD913812A1BF5140096974B /* PostView.swift */; };
+		4AD913842A1BF9210096974B /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD913832A1BF9210096974B /* HomeScreen.swift */; };
+		4AD913862A1BFA030096974B /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD913852A1BFA030096974B /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		4A0D59482A189F6200DE89D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A0D594A2A189F6400DE89D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A0D594D2A189F6400DE89D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AD913722A1B91AE0096974B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		4AD913752A1BAA670096974B /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		4AD913772A1BAA7A0096974B /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		4AD913792A1BAC310096974B /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		4AD9137B2A1BEA500096974B /* MyNetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreen.swift; sourceTree = "<group>"; };
+		4AD9137D2A1BEEBB0096974B /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		4AD9137F2A1BF3F90096974B /* ProfileAndPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndPostView.swift; sourceTree = "<group>"; };
+		4AD913812A1BF5140096974B /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		4AD913832A1BF9210096974B /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		4AD913852A1BFA030096974B /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,8 @@
 		4A0D59452A189F6200DE89D2 /* linkedin */ = {
 			isa = PBXGroup;
 			children = (
+				4AD913742A1BAA430096974B /* Model */,
+				4AD913712A1B919B0096974B /* View */,
 				4A0D59462A189F6200DE89D2 /* linkedinApp.swift */,
 				4A0D59482A189F6200DE89D2 /* ContentView.swift */,
 				4A0D594A2A189F6400DE89D2 /* Assets.xcassets */,
@@ -63,8 +85,32 @@
 			isa = PBXGroup;
 			children = (
 				4A0D594D2A189F6400DE89D2 /* Preview Assets.xcassets */,
+				4AD913852A1BFA030096974B /* TabView.swift */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AD913712A1B919B0096974B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4AD913722A1B91AE0096974B /* SearchBar.swift */,
+				4AD913792A1BAC310096974B /* InvitationView.swift */,
+				4AD9137B2A1BEA500096974B /* MyNetworkScreen.swift */,
+				4AD9137D2A1BEEBB0096974B /* PostCardView.swift */,
+				4AD9137F2A1BF3F90096974B /* ProfileAndPostView.swift */,
+				4AD913812A1BF5140096974B /* PostView.swift */,
+				4AD913832A1BF9210096974B /* HomeScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4AD913742A1BAA430096974B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4AD913752A1BAA670096974B /* PostModel.swift */,
+				4AD913772A1BAA7A0096974B /* NetworkModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AD9137E2A1BEEBB0096974B /* PostCardView.swift in Sources */,
+				4AD913802A1BF3F90096974B /* ProfileAndPostView.swift in Sources */,
 				4A0D59492A189F6200DE89D2 /* ContentView.swift in Sources */,
+				4AD913762A1BAA670096974B /* PostModel.swift in Sources */,
+				4AD913842A1BF9210096974B /* HomeScreen.swift in Sources */,
 				4A0D59472A189F6200DE89D2 /* linkedinApp.swift in Sources */,
+				4AD913782A1BAA7A0096974B /* NetworkModel.swift in Sources */,
+				4AD913732A1B91AE0096974B /* SearchBar.swift in Sources */,
+				4AD9137A2A1BAC310096974B /* InvitationView.swift in Sources */,
+				4AD913822A1BF5140096974B /* PostView.swift in Sources */,
+				4AD913862A1BFA030096974B /* TabView.swift in Sources */,
+				4AD9137C2A1BEA500096974B /* MyNetworkScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
